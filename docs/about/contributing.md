@@ -58,6 +58,6 @@ Be respectful and inclusive. We welcome contributors from all backgrounds.
 ## Getting Help
 
 - Open an issue for bugs or feature requests
-- Reach out to the team: hello@medhira.io
+- Reach out to the team: hello.medhira@gmail.com
 
 Thank you for contributing to MEDHIRA!

@@ -32,7 +32,7 @@
     "parallel",
     "utils"
   ],
-  "author": "MEDHIRA <hello.medhira@gmail.com> (https://medhira.io)",
+  "author": "MEDHIRA <hello.medhira@gmail.com> (https://medhira.readthedocs.io/en/latest/)",
   "license": "Apache-2.0",
   "devDependencies": {
     "@babel/parser": "^7.28.0",

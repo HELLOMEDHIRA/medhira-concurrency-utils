@@ -122,7 +122,7 @@ Or, if you're looking for private support or help in customizing the experience,
 
 **MEDHIRA** - Engineering Intelligence Across Everything
 
-- Website: [https://medhira.io](https://medhira.io)
+- Website: [https://medhira.readthedocs.io/en/latest/](https://medhira.readthedocs.io/en/latest/)
 - GitHub: [https://github.com/HELLOMEDHIRA](https://github.com/HELLOMEDHIRA)
 - Email: hello.medhira@gmail.com
 

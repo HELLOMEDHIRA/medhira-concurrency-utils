@@ -26,6 +26,6 @@ export default [
     },
   },
   {
-    ignores: ['lib/**'],
+    ignores: ['lib/**','dist/**','docs/**','**/*.md','site/**','**/*.html','**/*.css','**/*.json'],
   },
 ];
