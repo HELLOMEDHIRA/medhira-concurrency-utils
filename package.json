@@ -1,0 +1,57 @@
+{
+  "name": "medhira-concurrency-utils",
+  "version": "0.0.1",
+  "description": "Hardware Concurrency Optimizer - Powered by MEDHIRA",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "logo": "https://raw.githubusercontent.com/HELLOMEDHIRA/medhira/main/assets/medhira-logo.png",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "npx eslint .",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HELLOMEDHIRA/medhira-concurrency-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HELLOMEDHIRA/medhira-concurrency-utils/issues"
+  },
+  "homepage": "https://github.com/HELLOMEDHIRA/medhira-concurrency-utils#readme",
+  "keywords": [
+    "medhira",
+    "concurrency",
+    "hardware",
+    "optimization",
+    "parallel",
+    "utils"
+  ],
+  "author": "MEDHIRA <hello.medhira@gmail.com> (https://medhira.io)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/parser": "^7.28.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "jest": "^30.0.4",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

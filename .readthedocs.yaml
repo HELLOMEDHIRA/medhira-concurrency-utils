@@ -1,0 +1,24 @@
+# ReadTheDocs configuration for MEDHIRA Concurrency Utils
+
+version: 2
+
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.12"
+  commands:
+    - pip install -r requirements.txt
+    - mkdocs build --strict -d $READTHEDOCS_OUTPUT/html
+
+mkdocs:
+  configuration: mkdocs.yml
+  fail_on_warning: true
+
+python:
+  install:
+    - requirements: requirements.txt
+
+formats:
+  - htmlzip
+  - pdf
+  - epub
